@@ -2,8 +2,7 @@ cask "cadcraft-studio" do
   version "0.9.0"
   sha256 "3f36b3f534e97641ce9f85b6331e6362748f30f87be5b1b46d2fdf3b99f21417"
 
-  url "https://cdn.getcadcraft.com/downloads/#{version}/CadCraft-Studio-#{version}.dmg",
-      verified: "cdn.getcadcraft.com/downloads/"
+  url "https://cdn.getcadcraft.com/downloads/#{version}/CadCraft-Studio-#{version}.dmg"
   name "CadCraft Studio"
   desc "Eight CAD and BIM apps in one desktop install"
   homepage "https://getcadcraft.com/studio"
